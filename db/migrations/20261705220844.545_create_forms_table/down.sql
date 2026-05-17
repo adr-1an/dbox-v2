@@ -1,0 +1,3 @@
+
+DROP TABLE IF EXISTS forms_archive;
+DROP TABLE IF EXISTS forms;

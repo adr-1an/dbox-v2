@@ -1,0 +1,3 @@
+
+DROP TABLE IF EXISTS assets_archive;
+DROP TABLE IF EXISTS assets;

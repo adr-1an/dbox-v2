@@ -1,0 +1,3 @@
+
+DROP TABLE IF EXISTS emails_archive;
+DROP TABLE IF EXISTS emails;
