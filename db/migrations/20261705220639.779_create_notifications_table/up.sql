@@ -1,7 +1,7 @@
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
-CREATE TABLE notifications (
+CREATE TABLE IF NOT EXISTS notifications (
     id BIGSERIAL PRIMARY KEY,
 
     public_id UUID NOT NULL DEFAULT gen_random_uuid(),
@@ -134,6 +134,6 @@ CREATE INDEX idx_notifications_covering_dashboard
         currency
     );
 
-CREATE TABLE notifications_archive (
+CREATE TABLE IF NOT EXISTS notifications_archive (
     LIKE notifications INCLUDING ALL
 );

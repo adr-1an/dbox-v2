@@ -1,3 +1,0 @@
-
-DROP TABLE IF EXISTS teams_archive;
-DROP TABLE IF EXISTS teams;

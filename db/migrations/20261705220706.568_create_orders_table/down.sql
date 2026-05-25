@@ -1,3 +1,0 @@
-
-DROP TABLE IF EXISTS orders_archive;
-DROP TABLE IF EXISTS orders;

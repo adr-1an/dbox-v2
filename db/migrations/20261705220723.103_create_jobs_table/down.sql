@@ -1,3 +1,0 @@
-
-DROP TABLE IF EXISTS jobs_archive;
-DROP TABLE IF EXISTS jobs;

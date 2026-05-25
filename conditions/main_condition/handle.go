@@ -2,6 +2,7 @@ package main_condition
 
 import (
 	"app/app_state"
+	"app/conditions/cleanup_condition"
 	"app/conditions/init_condition"
 	"app/conditions/make_condition"
 	"app/conditions/migrate_condition"
@@ -27,6 +28,9 @@ func HandleMainConditions(args []string, state *app_state.AppState) {
 
 	case "rollback", "down":
 		rollback_condition.HandleRollback(args, state)
+
+	case "cleanup":
+		cleanup_condition.HandleCleanup(args, state)
 
 	case "help":
 		entry.Info()

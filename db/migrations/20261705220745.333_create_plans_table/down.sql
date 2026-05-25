@@ -1,3 +1,0 @@
-
-DROP TABLE IF EXISTS plans_archive;
-DROP TABLE IF EXISTS plans;

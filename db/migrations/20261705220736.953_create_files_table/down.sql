@@ -1,3 +1,0 @@
-
-DROP TABLE IF EXISTS files_archive;
-DROP TABLE IF EXISTS files;
