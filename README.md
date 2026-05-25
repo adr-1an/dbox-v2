@@ -9,4 +9,4 @@ More databases will be added in later releases. [DBox v1](https://github.com/adr
 
 ## Notes
 This is my personal project, mainly intended for internal use in my apps.
-My goal isn't to make this some kinda big serious project, as long as it gets the job done for my projects.
+My goal isn't to make this some kinda big/serious project, as long as it gets the job done for my projects.
