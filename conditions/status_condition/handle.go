@@ -19,7 +19,7 @@ func HandleStatus(args []string, state *app_state.AppState) {
 
 	var migrations []migration
 
-	migrationsDir := os.Getenv("MIGRATIONS_DIR")
+	migrationsDir := os.Getenv("MIGRATION_DIR")
 	if migrationsDir == "" {
 		migrationsDir = "db/migrations"
 	}
